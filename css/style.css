@@ -799,6 +799,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+.browse-all {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-browse-all {
+  background: #fcad26;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Book-recommendation tab
 --------------------------------------------------------------*/
