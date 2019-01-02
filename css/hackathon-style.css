@@ -267,44 +267,55 @@
 }
 
 /*--------------------------------------------------------------
-# Sponsors Section
+# Sponsors
 --------------------------------------------------------------*/
 
-#sponsors {
-  padding: 60px 0;
-}
-
-#sponsors .sponsors-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+#sponsors .sponsor-item {
+  border: 1px solid #e0e5fa;
+  background: #fff;
   margin-bottom: 30px;
+  height: 200px;
 }
 
-#sponsors .sponsor-logo {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+#sponsors .sponsor-img {
+  background-size: 100% 100%;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+  margin-bottom: 15px;
+  max-height: 150px;
+  background-repeat: no-repeat;
 }
 
-#sponsors .sponsor-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+#sponsors .sponsor-item:hover .sponsor-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-#sponsors img {
-  transition: all 0.4s ease-in-out;
+#sponsors .sponsor-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#sponsors h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+#sponsors a {
+  color: #152b79;
+}
+
+#sponsors a:hover {
+  color: #f82249;
+}
+
+
+#sponsors p {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
 }
 
 /*--------------------------------------------------------------
